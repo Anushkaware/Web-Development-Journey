@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--tables in html are used to represent real life table data it is combination of <table>, <tr>, <td>, <th> tags (rows and columns)
+        <tr> used to define a row in the table 
+            <th> used to define a header cell in the table 
+                <td> used to define a standard cell in the table -->
+        <table border="black"> 
+          <caption >food menu</caption>
+          <thead>
+            <tr>
+            <th rowspan="2">item</th>
+            <th colspan="2">price</th>
+          </tr>
+          <tr>
+            <th>inr</th>
+            <th>usd</th>
+          </tr>
+        </thead>
+        <tbody>
+             <tr>
+            <td>pizza</td>
+            <td>200</td>
+            <td>0.14</td>
+          </tr>
+            <tr>
+                <td>burger</td>
+                <td>100</td>
+                <td>0.07</td>
+            </tr>   
+            <tr>    
+                <td>pasta</td>
+                <td>150</td>
+                <td>0.10</td>
+            </tr>
+            <!--Colspan & rowspan attributes used to create cells which spans over multiple rows or columns-->
+
+
+        </tbody>
+          
+         
+        </table>
+        <!-- <thead> to wrap table headers 
+            <tbody to wrap table body 
+            <tfoot> to wrap table footer -->
+                <table border="black">
+                    <caption>A test table with merged cells</caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2"> </th>
+                            <th colspan="2">average</th>
+                            <th rowspan="2">Red eyes</th>
+                        </tr>
+                        <tr>
+                            <th>height</th>
+                            <th>weight</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>males</td>
+                                <td>5.9</td>
+                                <td>0.003</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td>females</td>
+                                <td>5.4</td>
+                                <td>0.002</td>
+                                <td>20%</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+    
+</body>
+</html>
